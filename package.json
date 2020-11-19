@@ -1,6 +1,6 @@
 {
   "name": "git-origin-check",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validates Git origin is set to correct host.",
   "bin": {
     "git-origin-check": "bin/run.js"
