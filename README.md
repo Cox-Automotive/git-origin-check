@@ -6,5 +6,5 @@ Example Usage:
 
 ```
 npm install git-origin-check
-git-origin check github.com
+git-origin-check github.com
 ```
