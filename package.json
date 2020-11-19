@@ -1,12 +1,12 @@
 {
   "name": "git-origin-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates Git origin is set to correct host.",
   "bin": {
     "git-origin-check": "bin/run.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "get-ssh-config": "^1.3.0",
     "git-remote-origin-url": "^3.1.0",
     "git-url-parse": "^11.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
   }
 }
