@@ -1,0 +1,30 @@
+{
+  "name": "git-origin-check",
+  "version": "1.0.0",
+  "description": "Validates Git origin is set to correct host.",
+  "bin": {
+    "git-origin-check": "bin/run.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cox-Automotive/git-origin-check.git"
+  },
+  "keywords": [
+    "git",
+    "origin"
+  ],
+  "author": "Cox Automotive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cox-Automotive/git-origin-check/issues"
+  },
+  "homepage": "https://github.com/Cox-Automotive/git-origin-check#readme",
+  "dependencies": {
+    "get-ssh-config": "^1.3.0",
+    "git-remote-origin-url": "^3.1.0",
+    "git-url-parse": "^11.4.0"
+  }
+}
