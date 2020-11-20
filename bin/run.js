@@ -12,7 +12,7 @@ if(args.length !== 1) {
   try{
     await originCheck.check(args[0]);
   } catch(e){
-    console.error(e);
+    console.error(`🚨 🚨 🚨  ${e.message}  🚨 🚨 🚨`);
     process.exit(1);
   }
 
